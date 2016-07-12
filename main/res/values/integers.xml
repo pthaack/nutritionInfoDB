@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="pickpage_food_dept_vegetable_pick">0</integer>
+    <integer name="pickpage_food_dept_fruit_pick">1</integer>
+    <integer name="pickpage_food_dept_meat_pick">2</integer>
+    <integer name="pickpage_food_dept_deli_pick">3</integer>
+    <integer name="pickpage_food_dept_bakery_pick">4</integer>
+    <integer name="pickpage_food_dept_dairy_pick">5</integer>
+    <integer name="pickpage_food_dept_frozen_pick">6</integer>
+    <integer name="pickpage_food_dept_misc_pick">7</integer>
+</resources>

@@ -1,0 +1,107 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="action_bar_size">45dp</dimen>
+
+    <dimen name="intropage_textsize">18sp</dimen>
+
+    <dimen name="pickpage_horizontal_margin">5sp</dimen>
+    <dimen name="pickpage_vertical_margin">3sp</dimen>
+    <dimen name="pickpage_horizontal_indent">20sp</dimen>
+
+    <dimen name="pickpage_title_height">30sp</dimen>
+    <dimen name="pickpage_title_textsize">26sp</dimen>
+    <dimen name="pickpage_edittext_height">16sp</dimen>
+    <dimen name="pickpage_label_textsize">12sp</dimen>
+    <dimen name="pickpage_edittext_textsize">12sp</dimen>
+
+    <dimen name="pickpage_food_newitem_height">30sp</dimen>
+    <dimen name="pickpage_food_newitem_textsize">26sp</dimen>
+    <dimen name="pickpage_food_dept_image_width">50dp</dimen>
+    <dimen name="pickpage_food_dept_image_height">36dp</dimen>
+
+    <dimen name="nutrition_facts_horizontal_margin">5sp</dimen>
+    <dimen name="nutrition_facts_vertical_margin">3sp</dimen>
+    <dimen name="nutrition_facts_horizontal_indent">20sp</dimen>
+    <dimen name="nutrition_facts_rule_thin">1dp</dimen> <!-- ¼ point rule -->
+    <dimen name="nutrition_facts_rule_thick">3dp</dimen> <!-- 3 point rule -->
+    <dimen name="nutrition_facts_rule_thicker">8dp</dimen> <!-- 7 point rule -->
+
+    <dimen name="nutrition_facts_title_height">38sp</dimen>
+    <dimen name="nutrition_facts_title_textsize">36sp</dimen> <!-- 13 point -->
+
+    <dimen name="nutrition_facts_serving_size_height">21sp</dimen>
+    <dimen name="nutrition_facts_serving_size_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_serving_size_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_servings_per_height">21sp</dimen>
+    <dimen name="nutrition_facts_servings_per_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_servings_per_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_amount_per_serving_height">18sp</dimen>
+    <dimen name="nutrition_facts_amount_per_serving_textsize">15sp</dimen> <!-- 7 point -->
+
+    <dimen name="nutrition_facts_calories_height">20sp</dimen>
+    <dimen name="nutrition_facts_calories_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_calories_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_calories_fat_height">21sp</dimen>
+    <dimen name="nutrition_facts_calories_label_fat_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_calories_fat_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_daily_value_height">12sp</dimen>
+    <dimen name="nutrition_facts_daily_value_textsize">10sp</dimen> <!-- 6 point -->
+
+    <dimen name="nutrition_facts_total_fat_height">21sp</dimen>
+    <dimen name="nutrition_facts_total_fat_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_total_fat_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_saturated_fat_height">21sp</dimen>
+    <dimen name="nutrition_facts_saturated_fat_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_saturated_fat_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_trans_fat_height">21sp</dimen>
+    <dimen name="nutrition_facts_trans_fat_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_trans_fat_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_cholesterol_height">21sp</dimen>
+    <dimen name="nutrition_facts_cholesterol_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_cholesterol_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_sodium_height">21sp</dimen>
+    <dimen name="nutrition_facts_sodium_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_sodium_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_total_carbohydrate_height">21sp</dimen>
+    <dimen name="nutrition_facts_total_carbohydrate_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_total_carbohydrate_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_dietary_fibre_height">21sp</dimen>
+    <dimen name="nutrition_facts_dietary_fibre_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_dietary_fibre_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_sugars_height">21sp</dimen>
+    <dimen name="nutrition_facts_sugars_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_sugars_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_protein_height">21sp</dimen>
+    <dimen name="nutrition_facts_protein_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_protein_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_vitamin_a_height">21sp</dimen>
+    <dimen name="nutrition_facts_vitamin_a_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_vitamin_a_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_vitamin_c_height">21sp</dimen>
+    <dimen name="nutrition_facts_vitamin_c_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_vitamin_c_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_calcium_height">21sp</dimen>
+    <dimen name="nutrition_facts_calcium_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_calcium_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_iron_height">21sp</dimen>
+    <dimen name="nutrition_facts_iron_label_textsize">18sp</dimen> <!-- 8 point -->
+    <dimen name="nutrition_facts_iron_textsize">18sp</dimen> <!-- 8 point -->
+
+    <dimen name="nutrition_facts_daily_value_comments_height">12sp</dimen>
+    <dimen name="nutrition_facts_daily_value_comments_textsize">10sp</dimen> <!-- 6 point -->
+
+</resources>

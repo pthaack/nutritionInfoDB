@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorFAQ">#7986cb</color>
+    <color name="nutritionFacts">#000</color>
+    <color name="pickPage">#1e251e</color>
+    <color name="pickPageBackground">#ecf1eb</color>
+</resources>

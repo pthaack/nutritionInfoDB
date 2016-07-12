@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/food_list_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/food_list_product"
+        android:layout_toRightOf="@id/food_list_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/food_list_quantity"
+        android:layout_toRightOf="@id/food_list_product"
+        android:gravity="right"
+        android:inputType="numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Spinner
+        android:id="@+id/food_list_uom"
+        android:layout_toRightOf="@id/food_list_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/pickpage_food_uom"
+        / --> <!-- too complex at this time - add and remove only -->
+    <TextView
+        android:id="@+id/food_list_unit_price"
+        android:layout_toRightOf="@id/food_list_product"
+        android:gravity="right"
+        android:inputType="numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/food_list_ext_price"
+        android:layout_toRightOf="@id/food_list_unit_price"
+        android:gravity="right"
+        android:inputType="numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

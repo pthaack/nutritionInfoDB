@@ -1,0 +1,287 @@
+<resources>
+    <string name="app_name">SCS2862 Final</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="fab_msg_default">Default message for Floating Action Button</string>
+    <string name="fab_msg_default1">Information coming for tab 1\nDefault message for Floating Action Button</string>
+    <string name="fab_msg_default2">Information coming for tab 2\nDefault message for Floating Action Button</string>
+    <string name="fab_msg_default3">Information coming for tab 3\nDefault message for Floating Action Button</string>
+    <string name="fab_msg_default4">Information coming for tab 4\nDefault message for Floating Action Button</string>
+    <string name="fab_msg_default5">Information coming for tab 5\nDefault message for Floating Action Button</string>
+    <string name="fab_msg_default6">Information coming for tab 6\nDefault message for Floating Action Button</string>
+    <string name="fab_msg_default7">Information coming for tab 7\nDefault message for Floating Action Button</string>
+
+    <string name="intropage_title">Introduction</string>
+    <!-- string name="pickpage_title">Pick Page</string -->
+    <string name="shoppinglist_title">Shopping List</string>
+    <!-- string name="nutrition_facts_title">Nutrition Facts</string -->
+    <string name="nutrition_details_title">Nutritional Details</string>
+    <string name="source_data_title">Data</string>
+    <!--
+    * Intro page: describe how to use the object and what to look for and acknowledgements. Replace with Shopping list if available.
+    * Pick pages: add items to the shopping list here by Department then Item, configure number and type of persons
+    * Shopping list: display the items to buy with quantity and price. Display Total price and weight
+    * Nutrition summary: display number of servings, and RDA of calories, proteins, carbohydrates, lipids
+    * Nutrition detail: display RDA of macro and micro nutrients, vitamins, and minerals
+    * Data: download data from Google Drive shared Sheet, or other XML resource.-->
+
+    <string name="intropage_text">This is the text for the intro page.\nIt describes how to use this app.\n...TODO... Enter more instructions.\n</string>
+    <string name="intropage_font">sans-serif</string>
+    <string name="intropage_text_household">Select the number of people in your household by gender and age group.\nThis will generate the proper calorie and nutrient recommended daily allowance that will be used to assist in shopping for a balanced diet.</string>
+    <string name="intropage_text_groceries">Pick the groceries that you normally buy.\nThe database contains the nutritional information downloaded from the government website.</string>
+    <string name="intropage_text_credits">Credits\nCanada Food Guide\nStatistics Canada - Food and other selected items, average retail prices\nUSDA National Nutrient Database for Standard Reference</string>
+
+    <string name="pickpage_title">Pick Page</string>
+    <string name="pickpage_person_title">Pick Persons</string>
+    <string name="pickpage_food_title">Pick Groceries</string>
+    <string name="pickpage_title_font">sans-serif</string>
+
+    <string name="nutrition_facts_title">Nutrition Facts</string>
+
+
+
+    <!-- string name="pickpage_title">Pick Page</string -->
+    <!-- string name="nutrition_facts_title">Nutrition Facts</string -->
+    <!--
+    * Intro page: describe how to use the object and what to look for and acknowledgements. Replace with Shopping list if available.
+    * Pick pages: add items to the shopping list here by Department then Item, configure number and type of persons
+    * Shopping list: display the items to buy with quantity and price. Display Total price and weight
+    * Nutrition summary: display number of servings, and RDA of calories, proteins, carbohydrates, lipids
+    * Nutrition detail: display RDA of macro and micro nutrients, vitamins, and minerals
+    * Data: download data from Google Drive shared Sheet, or other XML resource.-->
+
+    <string name="pickpage_persons">Shopping for</string>
+    <string name="pickpage_men">Male</string>
+    <string name="pickpage_women">Female</string>
+    <string name="pickpage_ages">Ages</string>
+    <string name="pickpage_ages_toddlers">2 – 3 years</string>
+    <string name="pickpage_ages_children">4 – 8 years</string>
+    <string name="pickpage_ages_youths">9 – 13 years</string>
+    <string name="pickpage_ages_teens">14 – 18 years</string>
+    <string name="pickpage_ages_adults">19 – 50 years</string>
+    <string name="pickpage_ages_elderly">51+ years</string>
+    <string name="pickpage_ages_toddlers_type">toddler</string>     <!-- singular -->
+    <string name="pickpage_ages_children_type">child</string> <!-- singular -->
+    <string name="pickpage_ages_youths_type">youth</string> <!-- singular -->
+    <string name="pickpage_ages_teens_type">teen</string> <!-- singular -->
+    <string name="pickpage_ages_adults_type">adult</string> <!-- singular -->
+    <string name="pickpage_ages_elderly_type">senior</string> <!-- singular -->
+    <string name="pickpage_ages_toddlers_types">toddlers</string> <!-- plural -->
+    <string name="pickpage_ages_children_types">children</string> <!-- plural -->
+    <string name="pickpage_ages_youths_types">youths</string> <!-- plural -->
+    <string name="pickpage_ages_teens_types">teens</string> <!-- plural -->
+    <string name="pickpage_ages_adults_types">adults</string>           <!-- plural -->
+    <string name="pickpage_ages_elderly_types">seniors</string>     <!-- plural -->
+    <string-array name="pickpage_ages_picklist">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="pickpage_ages_instructions">The number of persons determines the calorie and nutrient requirements calculation.\nWhile every individual is different, for the purposes of this assignment the calculation should be reasonable enough.</string>
+
+    <string name="pickpage_food">Groceries</string>
+    <string name="pickpage_food_no_items">No items</string>
+    <string name="pickpage_food_shopping">Shopping for</string>
+    <string name="pickpage_food_department">Department</string>
+    <string name="pickpage_food_product">Product</string>
+    <string name="pickpage_food_newitem">+ Add new item</string>
+    <!-- pick up the departments (meat, produce, dairy, bakery, …) and products from the database -->
+    <string name="pickpage_food_dept_vegetable">Vegetable Department</string>
+    <string name="pickpage_food_dept_fruit">Fruit Department</string>
+    <string name="pickpage_food_dept_meat">Meat Department</string>
+    <string name="pickpage_food_dept_deli">Delicatessen Department</string>
+    <string name="pickpage_food_dept_bakery">Bakery Department</string>
+    <string name="pickpage_food_dept_dairy">Dairy Department</string>
+    <string name="pickpage_food_dept_frozen">Frozen Food Department</string>
+    <string name="pickpage_food_dept_misc">Miscellaneous Department</string>
+    <string-array name="pickpage_food_department_list">
+        <item>Vegetable Department</item>
+        <item>Fruit Department</item>
+        <item>Meat Department</item>
+        <item>Delicatessen Department</item>
+        <item>Bakery Department</item>
+        <item>Dairy Department</item>
+        <item>Frozen Food Department</item>
+        <item>Miscellaneous Department</item>
+    </string-array>
+    <string-array name="pickpage_food_product_list">
+        <item>Carrots</item>
+        <item>Celery</item>
+        <item>Mushrooms</item>
+        <item>Onions</item>
+        <item>Potatoes</item>
+    </string-array>
+    <string-array name="pickpage_food_product_list_vegetable">
+        <item>Carrots</item>
+        <item>Celery</item>
+        <item>Mushrooms</item>
+        <item>Onions</item>
+        <item>Potatoes</item>
+    </string-array>
+    <string-array name="pickpage_food_product_list_fruit">
+        <item>Apples</item>
+        <item>Bananas</item>
+        <item>Grapefruits</item>
+        <item>Oranges</item>
+        <item>Apple juice, canned</item>
+        <item>Orange juice, tetra-brick</item>
+    </string-array>
+    <string-array name="pickpage_food_product_list_meat">
+        <item>Round Steak</item>
+        <item>Sirloin Steak</item>
+        <item>Prime rib roast</item>
+        <item>Blade Roast</item>
+        <item>Stewing beef</item>
+        <item>Ground beef, regular</item>
+        <item>Pork chops</item>
+        <item>Chicken</item>
+        <item>Bacon</item>
+        <item>Wieners</item>
+        <item>Canned sockeye salmon</item>
+    </string-array>
+    <string-array name="pickpage_food_product_list_dairy">
+        <item>Homogenized milk</item>
+        <item>Partly skimmed milk</item>
+        <item>Butter</item>
+        <item>Processed cheese food slices</item>
+        <item>Evaporated milk</item>
+        <item>Eggs</item>
+    </string-array>
+    <string-array name="pickpage_food_product_list_bakery">
+        <item>Bread</item>
+        <item>Soda crackers</item>
+        <item>Macaroni</item>
+        <item>Flour</item>
+        <item>Corn flakes</item>
+    </string-array>
+    <string-array name="pickpage_food_product_list_deli">
+        <item>Bologna</item>
+        <item>Corned Beef</item>
+        <item>Deli meat, ham</item>
+        <item>Deli meat, turkey</item>
+        <item>Olives</item>
+    </string-array>
+    <string-array name="pickpage_food_product_list_frozen">
+        <item>French fried potatoes, frozen</item>
+    </string-array>
+    <string-array name="pickpage_food_product_list_misc">
+        <item>Baked beans, canned</item>
+        <item>Tomatoes, canned</item>
+        <item>Tomato juice, canned</item>
+        <item>Ketchup</item>
+        <item>Sugar, white</item>
+        <item>Coffee, roasted</item>
+        <item>Coffee, instant</item>
+        <item>Soup, canned</item>
+        <item>Baby food</item>
+        <item>Peanut butter</item>
+        <item>Fruit flavoured crystals</item>
+        <item>Soft drinks, cola</item>
+        <item>Soft drinks, lemon-lime type</item>
+        <item>Tea (bags)</item>
+        <item>Cooking or salad oil</item>
+    </string-array>
+    <string-array name="pickpage_food_uom">
+        <item>mg</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>L</item>
+        <item>each</item>
+        <item>package</item>
+        <item>dozen</item>
+        <item>dry pint</item>
+        <item>dry quart</item>
+        <item>dry bushel</item>
+    </string-array>
+    <string name="pickpage_food_button_name">Add</string>
+    <string name="pickpage_food_display_description">%1$s %2$s%3$s : %4$s (%5$.1f)</string>
+
+    <string name="nutrition_facts_title_font">sans-serif</string>
+    <string name="nutrition_facts_title_font2">Franklin Gothic Heavy</string>
+
+    <string name="nutrition_facts_serving_size_label">Serving Size</string>
+    <string name="nutrition_facts_serving_size_label_font">sans-serif</string>
+    <string name="nutrition_facts_serving_size_font">sans-serif</string>
+
+    <string name="nutrition_facts_servings_per_label">Servings Per Day</string>
+    <string name="nutrition_facts_servings_per_label_font">sans-serif</string>
+    <string name="nutrition_facts_servings_per_font">sans-serif</string>
+
+    <string name="nutrition_facts_amount_per_serving">Amount Per Serving</string>
+    <string name="nutrition_facts_amount_per_serving_font">sans-serif</string>
+
+    <string name="nutrition_facts_calories_label">Calories</string>
+    <string name="nutrition_facts_calories_label_font">sans-serif</string>
+    <string name="nutrition_facts_calories_font">sans-serif</string>
+
+    <string name="nutrition_facts_calories_fat_label">Calories From Fat</string>
+    <string name="nutrition_facts_calories_fat_label_font">sans-serif</string>
+    <string name="nutrition_facts_calories_fat_font">sans-serif</string>
+
+    <string name="nutrition_facts_daily_value">% Daily Value *</string>
+    <string name="nutrition_facts_daily_value_font">sans-serif</string>
+
+    <string name="nutrition_facts_total_fat_label">Total Fat</string>
+    <string name="nutrition_facts_total_fat_label_font">sans-serif</string>
+    <string name="nutrition_facts_total_fat_font">sans-serif</string>
+    <string name="nutrition_facts_saturated_fat_label">Saturated Fat</string>
+    <string name="nutrition_facts_saturated_fat_label_font">sans-serif</string>
+    <string name="nutrition_facts_saturated_fat_font">sans-serif</string>
+    <string name="nutrition_facts_trans_fat_label">Trans Fat</string>
+    <string name="nutrition_facts_trans_fat_label_font">sans-serif</string>
+    <string name="nutrition_facts_trans_fat_font">sans-serif</string>
+
+    <string name="nutrition_facts_cholesterol_label">Cholesterol</string>
+    <string name="nutrition_facts_cholesterol_label_font">sans-serif</string>
+    <string name="nutrition_facts_cholesterol_font">sans-serif</string>
+
+    <string name="nutrition_facts_sodium_label">Sodium</string>
+    <string name="nutrition_facts_sodium_label_font">sans-serif</string>
+    <string name="nutrition_facts_sodium_font">sans-serif</string>
+
+    <string name="nutrition_facts_total_carbohydrate_label">Total Carbohydrate</string>
+    <string name="nutrition_facts_total_carbohydrate_label_font">sans-serif</string>
+    <string name="nutrition_facts_total_carbohydrate_font">sans-serif</string>
+    <string name="nutrition_facts_dietary_fibre_label">Dietary Fibre</string>
+    <string name="nutrition_facts_dietary_fibre_label_font">sans-serif</string>
+    <string name="nutrition_facts_dietary_fibre_font">sans-serif</string>
+    <string name="nutrition_facts_sugars_label">Sugars</string>
+    <string name="nutrition_facts_sugars_label_font">sans-serif</string>
+    <string name="nutrition_facts_sugars_font">sans-serif</string>
+
+    <string name="nutrition_facts_protein_label">Protein</string>
+    <string name="nutrition_facts_protein_label_font">sans-serif</string>
+    <string name="nutrition_facts_protein_font">sans-serif</string>
+
+    <string name="nutrition_facts_vitamin_a_label">Vitamin A</string>
+    <string name="nutrition_facts_vitamin_a_label_font">sans-serif</string>
+    <string name="nutrition_facts_vitamin_a_font">sans-serif</string>
+    <string name="nutrition_facts_vitamin_c_label">Vitamin C</string>
+    <string name="nutrition_facts_vitamin_c_label_font">sans-serif</string>
+    <string name="nutrition_facts_vitamin_c_font">sans-serif</string>
+    <string name="nutrition_facts_calcium_label">Calcium</string>
+    <string name="nutrition_facts_calcium_label_font">sans-serif</string>
+    <string name="nutrition_facts_calcium_font">sans-serif</string>
+    <string name="nutrition_facts_iron_label">Iron</string>
+    <string name="nutrition_facts_iron_label_font">sans-serif</string>
+    <string name="nutrition_facts_iron_font">sans-serif</string>
+
+    <string name="nutrition_facts_daily_comments_value">* Percent Daily Values are based on the number of persons and ages entered in the configuration page.</string>
+    <string name="nutrition_facts_daily_comments_value_font">sans-serif</string>
+    <string name="pickpage_ages_button_name">Save</string>
+    <string name="introduction_help_msg">"No further information for this page.  Click again "</string>
+    <string name="canada_food_guide_msg">Canada Food Guide daily recommendation for this household \n%1$.1f servings of fruits and vegetables, \n%2$.1f servings of grains and starchy vegetables, \n%3$.1f servings of dairy and alternatives, \n%4$.1f servings of meat and alternatives</string>
+
+    <string name="nutrition_facts_people_count">for %1$d children and %2$d adults</string>
+    <string name="nutrition_facts_servings_count">%1$.1f fruit &amp; veg (%5$.1f%%), %2$.1f grains (%6$.1f%%), %3$.1f dairy (%7$.1f%%), %4$.1f meat (%8$.1f%%) </string>
+
+</resources>
